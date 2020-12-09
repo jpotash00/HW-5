@@ -94,7 +94,7 @@ public static String getCellValue(char column, int row, String[] input){
             return((input[i+1]));
         }
     }
-            return " ";
+            return ""; //" "
         }
     public static boolean isCurrent(char col, int row, String cellLabel){
 
